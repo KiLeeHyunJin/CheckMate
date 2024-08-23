@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boost
+  - Obstacle
+  - BigBearJelly
+  - FireBall
+  - FeverItem
+  - Magnetic
+  - Potion
+  - SmallPotion
+  - Jelly
+  - Basicjelly
+  - Bigger
+  - FlyingBearJelly
+  - Bird
+  - Ground
+  - Pet
+  - Out
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BackGround
+  - Water
+  - UI
+  - MiddleGround
+  - Jelly
+  - Pet
+  - Player
+  - FrontGround
+  - Obstacle
+  - Effect
+  - Tile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 3557985209
+    locked: 0
+  - name: Middle
+    uniqueID: 2990360955
+    locked: 0
+  - name: Front
+    uniqueID: 1262277815
+    locked: 0

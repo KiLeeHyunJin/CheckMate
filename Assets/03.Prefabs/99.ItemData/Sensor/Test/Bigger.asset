@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b85e6988e8a924b82b5514af36426a, type: 3}
+  m_Name: Bigger
+  m_EditorClassIdentifier: 
+  type: 0
+  priceType: 0
+  sensorEffectType: 4
+  sensorInfo: "\uC5B4\uB9C8\uBB34\uC2DC\uD558\uB2E4.\n\uBB34\uC2DC\uBB34\uC2DC\uD558\uB2E4."
+  skillTime: 3
+  percentScore: 0
+  sensorName: Bigger
+  sensorLevel: 3
+  sensorSprite: {fileID: 8925885082548144169, guid: f3be47e940f2f9d4393a7538088feb2a, type: 3}
+  Description: 
+  AddFever: 500
+  GoldPrice: 200
+  DiaPrice: 300
+  levelUpDiaPrice: 300
+  levelUpGoldPrice: 300
+  DiaLevel2: 100
+  DiaLevel3: 200
+  DiaLevel4: 300
+  DiaLevel5: 400
+  DiaLevel6: 500
+  DiaLevel7: 600
+  GoldLevel2: 100
+  GoldLevel3: 200
+  GoldLevel4: 300
+  GoldLevel5: 400
+  GoldLevel6: 500
+  GoldLevel7: 600
+  Level2_SkillTime: 0
+  Level3_SkillTime: 0
+  Level4_SkillTime: 0
+  Level5_SkillTime: 0
+  Level6_SkillTime: 0
+  Level7_SkillTime: 0

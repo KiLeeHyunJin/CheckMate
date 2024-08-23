@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b85e6988e8a924b82b5514af36426a, type: 3}
+  m_Name: Gambler
+  m_EditorClassIdentifier: 
+  sensorType: 4
+  type: 0
+  priceType: 0
+  activeType: 0
+  sensorInfo: "99\uCD08\uC5D0 \uD55C \uBC88 50\uCF54\uC778\uC744 \uD68D\uB4DD\uD55C\uB2E4."
+  skillTime: 7
+  percentScore: 50
+  sensorName: "\uB3C4\uBC15\uC0AC"
+  sensorLevel: 1
+  ReadySensorImage: {fileID: 21300000, guid: 891f424d9434138418a0d3f00778a66b, type: 3}
+  sensorSprite: {fileID: 21300000, guid: b91bfc0805655d94185ee90f06442a93, type: 3}
+  InGameSensorSprite: {fileID: 21300000, guid: 1c60f5eb26e7a1348a28c184926d960c, type: 3}
+  GoldPrice: 500
+  DiaPrice: 200
+  levelUpDiaPrice: 40
+  levelUpGoldPrice: 300
+  DiaLevel2: 20
+  DiaLevel3: 40
+  DiaLevel4: 60
+  DiaLevel5: 80
+  DiaLevel6: 100
+  DiaLevel7: 120
+  GoldLevel2: 200
+  GoldLevel3: 300
+  GoldLevel4: 400
+  GoldLevel5: 500
+  GoldLevel6: 600
+  GoldLevel7: 700
+  Level2_SkillTime: 2
+  Level3_SkillTime: 3
+  Level4_SkillTime: 4
+  Level5_SkillTime: 5
+  Level6_SkillTime: 6
+  Level7_SkillTime: 7

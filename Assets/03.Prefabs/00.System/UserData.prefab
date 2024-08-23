@@ -1,0 +1,662 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6298443417999456792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6298443417999456795}
+  - component: {fileID: 6298443417999456773}
+  - component: {fileID: 6298443417999456794}
+  - component: {fileID: 6298443417999456772}
+  m_Layer: 0
+  m_Name: UserData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6298443417999456795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298443417999456792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6298443417999456773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298443417999456792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c283c8741ee371459de00fd75da8cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savingData:
+    m_itemData:
+      m_playerInvenItemNumber: 
+      m_playerInvenItemCount: 
+      m_playerInvenItemName: []
+      m_money: 0
+      m_stamina: 0
+      m_cash: 0
+      m_currentEXP: 0
+      m_maxEXP: 0
+      m_level: 0
+      m_name: 
+      m_UserCharacter: 0
+      m_LobbyCharacter: 0
+      m_isGive: 0
+    m_gradeItemData:
+      m_characterGradeValue: 
+      m_characterGradeNumber: 
+      m_characterGradeCount: 
+      m_characterGradeName: []
+    m_characterData:
+      m_characterNumber: 
+      m_characterName: []
+      m_characterPosition: 
+      m_characterGrade: 
+      m_characterLevel: 
+      m_characterStrength: 
+      m_characterHpMinusPercent: []
+      m_characterItemPercent: []
+      m_characterHealth: []
+      m_characterCurrentEXP: 
+      m_characterMaxEXP: 
+      m_QuestValue: 
+      m_QuestType: 
+      m_QuestClear: 
+      m_Reward: 0
+      m_QuestIndex: 0
+    m_stageData:
+      m_1ChapterIsClear: 0
+      m_1stageArrayNum: 
+      m_1stageIsClear: 
+      m_1stageIsFirst: 
+      m_1stageClearLevel: 
+      m_1stageHighScore: 
+      m_2ChapterIsClear: 0
+      m_2stageArrayNum: 
+      m_2stageIsClear: 
+      m_2stageIsFirst: 
+      m_2stageClearLevel: 
+      m_2stageHighScore: 
+    m_sensorData:
+      m_playerInvenSensorNumber: 
+      m_playerInvenSensorLevel: 
+      m_PlayerInvenSensorType: 
+      m_PlayerInvenSensorEffectType: 
+      m_playerInvenSensorName: []
+    m_count:
+      m_SlideCount: 0
+      m_JumpCount: 0
+      m_DoubleCount: 0
+      m_FeverCount: 0
+      m_SkillCount: 0
+      m_Sensor: 0
+      m_LevelUpCount: 0
+      m_ItemLevelUpCount: 0
+      m_BuyCount: 0
+--- !u!114 &6298443417999456794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298443417999456792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b62136fa342bf4fbcf6acb73609cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questData:
+    questEntries:
+    - questEntries:
+      - type: 7
+        iTargetCount: 1
+        iCurrentCount: 0
+        iChapterNum: 0
+        iStageNum: 0
+        isClear: 0
+      - type: 0
+        iTargetCount: 0
+        iCurrentCount: 0
+        iChapterNum: 0
+        iStageNum: 0
+        isClear: 0
+      rewardEntries: []
+      isClear: 0
+      isReward: 0
+    currentQuest:
+      questEntries: []
+      rewardEntries: []
+      isClear: 0
+      isReward: 0
+    currentQuestNum: 0
+    Owner: {fileID: 0}
+  gameStageData:
+    m_1StageData:
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 10000
+      Level2Score: 20000
+      Level3Score: 30000
+      Level1Exp: 10
+      Level2Exp: 20
+      Level3Exp: 30
+      clearReward:
+        rewardType: 1
+        rewardCount: 100
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 300
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 200
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 100
+    m_2StageData:
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+    - level:
+        lowLevel: 0
+        middleLevel: 0
+        highLevel: 0
+      highScore: 0
+      isFirst: 0
+      isClear: 0
+      clearLevel: 0
+      Level1Score: 0
+      Level2Score: 0
+      Level3Score: 0
+      Level1Exp: 0
+      Level2Exp: 0
+      Level3Exp: 0
+      clearReward:
+        rewardType: 0
+        rewardCount: 0
+      lv3Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv2Reward:
+        rewardType: 0
+        rewardCount: 0
+      lv1Reward:
+        rewardType: 0
+        rewardCount: 0
+  UserName: AnotherWorld
+  playerLevelMaxEXP: 
+  UserCharacterIcon: 99
+  characterType: 0
+  Money: 0
+  Cash: 0
+  CurrentEXP: 0
+  MaxEXP: 0
+  QuestIndex: 0
+  moneyTxt: {fileID: 0}
+  diamondTxt: {fileID: 0}
+  userlevel: {fileID: 0}
+  userlevelFillImage: {fileID: 0}
+  setUserLevel: 0
+--- !u!114 &6298443417999456772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298443417999456792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20bce417fabc17348b51d2c594df4482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GoldePriceImage: {fileID: 21300000, guid: 2b48f282c721bba47a49bc79a43ad050, type: 3}
+  DiamondPriceImage: {fileID: 21300000, guid: 23c3fa3e4c0b81e44af0f62d469d096e, type: 3}
+  GoldRewardIcon: {fileID: 21300000, guid: 3256030ea74a66c4ea5aafa991b595ed, type: 3}
+  DiamondRewardIcon: {fileID: 21300000, guid: 9dca5f4c8db74ee469bf6dab7d73dd4e, type: 3}
+  characters:
+  - {fileID: 11400000, guid: 8ff05b284fa55b54daa26934dafbd41a, type: 2}
+  - {fileID: 11400000, guid: 1c3d8263c8ef99746a3a7d706eaaeee4, type: 2}
+  - {fileID: 11400000, guid: 3ae0f4867345c1840b551126f5dafb46, type: 2}
+  - {fileID: 11400000, guid: dffbcd570a0aa3b4fb42752635c0dcc5, type: 2}
+  gradeItems: []
+  items: []
+  Sensor:
+  - {fileID: 11400000, guid: 789e09bfc145eef4d91d28d8828ebc6e, type: 2}
+  - {fileID: 11400000, guid: 3e7904490c5d96040aff63c204cc3a69, type: 2}
+  - {fileID: 11400000, guid: 13967132e5664ba4c8a9080943e2238b, type: 2}
+  - {fileID: 11400000, guid: 22c6d4d31d499a44b95ab64d8d22059b, type: 2}
+  - {fileID: 11400000, guid: fc9043233f504af488fe99456c8f933a, type: 2}
+  - {fileID: 11400000, guid: 1fe91fd6d50235e489b1ff73c1de1f4f, type: 2}
+  Grade: []
+  Position: []
+  ExpData:
+    Level1: 10
+    Level2: 20
+    Level3: 30
+    Level4: 40
+    Level5: 50
+    Level6: 60
+    Level7: 70
+    Level8: 80
+  MoveObstacle:
+    Arrow: {fileID: 8791964881242684421, guid: 58a1a9f199a665d4eb18a262cb33b542, type: 3}
+    BrownGrass: {fileID: 1132663705380979289, guid: 518370556d998a94bb86bcddf05c0fa0, type: 3}
+    Character: {fileID: 3544206781210631785, guid: 4b27ff5a4e6c051488d32084097b4efc, type: 3}
+    DownStreetFireBall: {fileID: 7167040168990262549, guid: 2ea9d5bc7c4dbcc4a9cd3c0465d05db1, type: 3}
+    DropTile: {fileID: 1133973276072170068, guid: 6756b5f73edc7674a9c03d81458d9096, type: 3}
+    FireBall: {fileID: 1223438382467839157, guid: 32514c3ca2327564d9d9b4385e657fcb, type: 3}
+    GreenGrass: {fileID: 1902356433387701251, guid: 43ce8e0cc7e02b146909c9f438718d77, type: 3}
+    OliveGrass: {fileID: 3310409914277744756, guid: e5bccde156511f2469fdf64d45c07074, type: 3}
+    PinkDown: {fileID: 8766447397370125889, guid: 546102264c736d542a93283dd6000d3a, type: 3}
+    YellowDown: {fileID: 2673108005756682791, guid: d9564984974b76b48898ee28153a37f4, type: 3}
+  StopObstacle:
+    BlueBottle: {fileID: 4779954673873151484, guid: 0af05a06251e3dc45b564a47081635de, type: 3}
+    BrownGrass: {fileID: 9175831289127423458, guid: d37f1c87851e4c4419c8b1379bd0d043, type: 3}
+    GreenGrass: {fileID: 1993126997012323021, guid: 6c58f3672553a914f9244bea3f6a041e, type: 3}
+    OliveGrass: {fileID: 6323811459997708730, guid: d70222879c0697e479c857f39365365c, type: 3}
+    RedBottle: {fileID: 5884481973158236929, guid: b13bfb6a761672d43b1111e2e8068884, type: 3}
+  Jelly:
+    Clover: {fileID: 3703104015441335023, guid: 5c367098c056afc47810b9d5ce7675c8, type: 3}
+    Spade: {fileID: 2838581874341396066, guid: f10be0afe6573a244beb15dca9ae9e8e, type: 3}
+    Heart: {fileID: 4505170732898741741, guid: 1ce542746edda924cb75f2f6f3092a24, type: 3}
+    Diamond: {fileID: 7523408632139335882, guid: 8d8c33d5d89216e4db51a577f1440923, type: 3}
+    Coin: {fileID: 980499003745161455, guid: 108b8bf0c32c815439bb369164d8ace6, type: 3}
+  FeverCoin:
+    White: {fileID: 6556848036136755354, guid: 248e22caf7ace334ebce85209cf12298, type: 3}
+    Black: {fileID: 4884054340235397911, guid: fb5db408a67a99b45967d36fce0c7e56, type: 3}
+    Yellow: {fileID: 8409240026811042836, guid: 55e5b04159d8e4049b32f8f857c260a1, type: 3}
+    Blue: {fileID: 5706681888924196589, guid: 1eec0fd88b0cb8a4d9c686ccf2bd16c2, type: 3}
+    Red: {fileID: 4650850056732082483, guid: 56184c50e53fc6a4293a8a86e2cd8a08, type: 3}
+    Green: {fileID: 2956137405963338951, guid: 3800fd686875ffa4ba61151e677c6cfc, type: 3}
+  AbilityItem:
+    SmallTime: {fileID: 4000331586928645780, guid: e99535dacf98c7d48a5d9d082756a9b2, type: 3}
+    BigTime: {fileID: 9208828362054050031, guid: e7ce2d9a94026054d87d2b64fb75465a, type: 3}
+  Tile:
+    nomal: {fileID: 7690583538156356234, guid: c173ef88cb2807d4297fac4f45cb430f, type: 3}
+    down: {fileID: 2896551810675234695, guid: e3e15364959e93d4791b4b250605fa02, type: 3}
+    up: {fileID: 2196997180276785939, guid: 639b242ad8cdb5445aa785c2e767546f, type: 3}

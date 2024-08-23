@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7798229570309858614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7798229570309858609}
+  - component: {fileID: 7798229570309858611}
+  m_Layer: 0
+  m_Name: InGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7798229570309858609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798229570309858614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7798229570309858611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798229570309858614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b275e4791c00043a01785feae5f429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseManu: {fileID: 0}
+  gameManager: {fileID: 0}
+  userData: {fileID: 0}
+  feverEffect: {fileID: 0}
+  objectParent: {fileID: 0}
+  Canvas: {fileID: 0}
+  skillEffectUI: {fileID: 0}
+  sceneChanger: {fileID: 0}
+  EndchangScene: 8
+  stageNum: 0
+  chapterNum: 0
+  bestScore: 0
+  gamescore: 0
+  currenBoostTime: 0
+  feverSlowValue: 0.441
+  feverSlowTime: 1.5
+  objectHurt: 0.03
+  timeHurt: 0.02
+  healValue: 0.1
+  DefaultCookieSpeed: 6
+  boosterSpeed: 12
+  currentCookieSpeed: 0
+  jump: 2
+  hpbar: {fileID: 0}
+  totalScore: {fileID: 0}
+  endScore: {fileID: 0}
+  resultOffObject: {fileID: 0}
+  result: {fileID: 0}
+  newicon: {fileID: 0}
+  boosteffectPrefab: {fileID: 4531295035949976094, guid: 1392fcd945f923f4185fb8b7d5a133c7, type: 3}
+  coinNum: 0
+  coinCount: {fileID: 0}
+  resultStageNum: {fileID: 0}
+  rewardCoinCount: {fileID: 0}
+  readyCount: {fileID: 0}
+  rewardEntryPrefab: {fileID: 318308895981544923, guid: 65cfe4e0d14d65946a176ba1f33cd8ec, type: 3}
+  rewardRectTransform:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  biggerTime: 5
+  boosterTime: 5
+  magnetTime: 8
+  petAbilityTime: 0.5
+  fireBallSpeed: 8
+  characterFevetTime: 1.5
+  isGameover: 0
+  isBoost: 0
+  feverBonusCoinValue: 0

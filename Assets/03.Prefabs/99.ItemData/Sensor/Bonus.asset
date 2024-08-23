@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b85e6988e8a924b82b5514af36426a, type: 3}
+  m_Name: Bonus
+  m_EditorClassIdentifier: 
+  sensorType: 0
+  type: 0
+  priceType: 0
+  activeType: 1
+  sensorInfo: "JACKPOT \uC810\uC218\uAC00 99% \uC99D\uAC00\uD55C\uB2E4."
+  skillTime: 12
+  percentScore: 12
+  sensorName: "\uBCF4\uB108\uC2A4"
+  sensorLevel: 1
+  ReadySensorImage: {fileID: 21300000, guid: 6cfa6dbdb9d43bf4a9a6b94b007fd43f, type: 3}
+  sensorSprite: {fileID: 21300000, guid: 466f5e54988c0864497c6b7df92b10a0, type: 3}
+  InGameSensorSprite: {fileID: 21300000, guid: 7e37069dce44eed4fb845262370b3b2b, type: 3}
+  GoldPrice: 500
+  DiaPrice: 200
+  levelUpDiaPrice: 40
+  levelUpGoldPrice: 300
+  DiaLevel2: 20
+  DiaLevel3: 40
+  DiaLevel4: 60
+  DiaLevel5: 80
+  DiaLevel6: 100
+  DiaLevel7: 120
+  GoldLevel2: 200
+  GoldLevel3: 300
+  GoldLevel4: 400
+  GoldLevel5: 500
+  GoldLevel6: 600
+  GoldLevel7: 700
+  Level2_SkillTime: 2
+  Level3_SkillTime: 3
+  Level4_SkillTime: 4
+  Level5_SkillTime: 5
+  Level6_SkillTime: 6
+  Level7_SkillTime: 7

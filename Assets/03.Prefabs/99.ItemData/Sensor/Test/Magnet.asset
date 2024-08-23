@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b85e6988e8a924b82b5514af36426a, type: 3}
+  m_Name: Magnet
+  m_EditorClassIdentifier: 
+  type: 0
+  priceType: 0
+  sensorEffectType: 3
+  sensorInfo: "\uAC1C\uD310\uC774\uB2E4.\n\uB09C\uC7A5\uD310\uC774\uB2E4."
+  skillTime: 3
+  percentScore: 0
+  sensorName: Magnet
+  sensorLevel: 1
+  sensorSprite: {fileID: 21300000, guid: 738d0ec4a7e7ed44893cdc3053b6149d, type: 3}
+  Description: 
+  AddFever: 24
+  GoldPrice: 500
+  DiaPrice: 500
+  levelUpDiaPrice: 600
+  levelUpGoldPrice: 600
+  DiaLevel2: 100
+  DiaLevel3: 200
+  DiaLevel4: 300
+  DiaLevel5: 400
+  DiaLevel6: 500
+  DiaLevel7: 600
+  GoldLevel2: 100
+  GoldLevel3: 200
+  GoldLevel4: 300
+  GoldLevel5: 400
+  GoldLevel6: 500
+  GoldLevel7: 600
+  Level2_SkillTime: 5
+  Level3_SkillTime: 10
+  Level4_SkillTime: 15
+  Level5_SkillTime: 20
+  Level6_SkillTime: 25
+  Level7_SkillTime: 30

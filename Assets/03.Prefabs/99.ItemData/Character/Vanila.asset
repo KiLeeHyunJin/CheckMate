@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cef32192872dcf4c8282f02b0bd34a8, type: 3}
+  m_Name: Vanila
+  m_EditorClassIdentifier: 
+  CharacterName: "\uC568\uB9AC\uC2A4"
+  CharacterType: 2
+  LevelUpPriceType: 0
+  readyCharacterImage: {fileID: 21300000, guid: 8e0073ddb9604414486be8804b7a633a, type: 3}
+  mainCharacter: {fileID: 21300000, guid: e227d1472bd5f2e4f848f469905ccd3b, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: c89a1956c5ac7a04a8b34df8e8e969b0, type: 3}
+  MarketCharacterSprite: {fileID: 21300000, guid: c89a1956c5ac7a04a8b34df8e8e969b0, type: 3}
+  ProfileIconImage: {fileID: 21300000, guid: 5504dad2bba31654c9620b6d60e0b47f, type: 3}
+  LobbySelectIconImage: {fileID: 21300000, guid: 5504dad2bba31654c9620b6d60e0b47f, type: 3}
+  CharacterDescription: "\uAE08\uBC1C\uC758 \uC11C\uC591\uC778 \uC18C\uB140. \uC568\uB9AC\uC2A4\uB85C
+    \uBD84\uC7A5\uD558\uC5EC \uCCB4\uD06C\uBA54\uC774\uD2B8 1\uCC28 \uACBD\uAE30\uC5D0
+    \uCC38\uC5EC\uD588\uB2E4."
+  Num: 0
+  currentLevel: 1
+  hpMinusPercent: 0
+  itemPercent: 0
+  SkillAbility: 5
+  fevetTime: 5
+  CurrentEXP: 0
+  MaxEXP: 23
+  characterDiaPrice: 500
+  characterGoldPrice: 3000
+  levelGoldPrice: 200
+  levelDiaPrice: 50
+  GoldLevel2: 200
+  GoldLevel3: 300
+  GoldLevel4: 400
+  GoldLevel5: 500
+  GoldLevel6: 600
+  GoldLevel7: 700
+  DiaLevel2: 50
+  DiaLevel3: 100
+  DiaLevel4: 150
+  DiaLevel5: 200
+  DiaLevel6: 250
+  DiaLevel7: 300

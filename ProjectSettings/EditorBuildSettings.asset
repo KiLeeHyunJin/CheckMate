@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00.Scenes/login.unity
+    guid: 48f56011012a6be40a7c4412609a9922
+  - enabled: 1
+    path: Assets/00.Scenes/lobby.unity
+    guid: 4c98a03b219af1b49b0d31b939758cfb
+  - enabled: 1
+    path: Assets/00.Scenes/NoUse/Loulette.unity
+    guid: 667ba61e29065504688333775ec75fd5
+  - enabled: 1
+    path: Assets/00.Scenes/mode_stage/mode_select.unity
+    guid: 6efe7ce622796f04f847237d3c7cf023
+  - enabled: 1
+    path: Assets/00.Scenes/OvenBreakII/OvenBreak.unity
+    guid: d8e72dba18e76a842bc8c0dd7467fd75
+  - enabled: 1
+    path: Assets/00.Scenes/Athor/characters.unity
+    guid: e695e63003641514ba4848d2e7e88caa
+  - enabled: 1
+    path: Assets/00.Scenes/Athor/store.unity
+    guid: b5933f22d541c49488e37e0763196338
+  - enabled: 1
+    path: Assets/00.Scenes/mode_stage/mode_stage.unity
+    guid: 34b5f66fe0ef5e74e879a812c94c9f3c
+  - enabled: 1
+    path: Assets/00.Scenes/OvenBreakII/OvenBreak 1.unity
+    guid: 8cf910a0c8fd7e547b3d5eb9d575ddf2
+  - enabled: 1
+    path: Assets/00.Scenes/OvenBreakII/OvenBreak 2.unity
+    guid: 284bb438df0f88b44bf53ad15114a279
+  - enabled: 1
+    path: Assets/00.Scenes/OvenBreakII/OvenBreak 3.unity
+    guid: cce3672fb2af57d4f8b98ad72a168146
+  m_configObjects: {}
